@@ -74,8 +74,8 @@ public class GrenadeCount {
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
 
-        FileInputFormat.addInputPath(job, new Path("/home/rudresh/eclipse-workspace/CSGo/mm_grenades_demos.csv"));
-        FileOutputFormat.setOutputPath(job, new Path("/home/rudresh/eclipse-workspace/CSGo/output_grenadeCount"));
+        FileInputFormat.addInputPath(job, new Path("/home/rudresh/data/Workspace/BigData/CounterStrike-Scrim-Analysis/mm_grenades_demos.csv"));
+        FileOutputFormat.setOutputPath(job, new Path("/home/rudresh/data/Workspace/BigData/CounterStrike-Scrim-Analysis/output_grenadeCount"));
 
         job.waitForCompletion(true);
     }
