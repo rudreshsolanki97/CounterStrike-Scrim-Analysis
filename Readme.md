@@ -12,8 +12,8 @@ Other queries :- grenade types, maximum damage, grenade thrown count.
 
 ## To do
 
-[ ] Player comfort grenade
-[ ] How much grenade dmg results in a win
-[ ] Counter-Terrorist vs Terrorist grenade stats  
-[ ] Plot graphs using Go-lang
+1. [ ] Player comfort grenade
+2. [ ] How much grenade dmg results in a win
+3. [ ] Counter-Terrorist vs Terrorist grenade stats  
+4. [ ] Plot graphs using Go-lang
 
